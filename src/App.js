@@ -1,8 +1,9 @@
-import Content from "./components/ReadMore";
 import React from "react";
+import RegisterYourCatForm from "./components/RegisterYourCatForm";
+import "./style.css";
 
 function App() {
-  return <Content />;
+  return <RegisterYourCatForm />;
 }
 
 export default App;
